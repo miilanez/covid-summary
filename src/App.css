@@ -1,38 +1,198 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container-principal {
+  padding: 3rem;
+}
+
+.container-title .card-title {
+  color: #003838;
+}
+
+.container-title p {
+  color: #53C8A4;
+  font-size: 0.8em;
+}
+
+/* HEADER */
+
+.header-topo {
+  background-color: #003838;
+  align-items: center;
+  text-align: center;
+  padding: 3rem;
+}
+
+.header-topo p {
+  color: #53C8A4;
+  font-size: 0.8em;
+}
+
+.header-topo p span {
+  color: #fff;
+}
+
+.header-topo h1 {
+  margin: 10px;
+  color: #fff;
+}
+
+.header-topo h2 {
+  font-size: 1.3em;
+  color: #fff;
+  font-weight: 500;
+}
+
+.header-topo h2 span {
+  color: #53C8A4;
+}
+
+/* GLOBAL */
+
+.card-global hr {
+  color: #003838;
+  height: 200px;
+}
+
+.card-global {
+  margin-top: 1rem;
+  padding: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #003838;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.card-global-esq,
+.card-global-center {
+  width: 25%;
+  padding: 1rem;
+}
+
+.card-global-graphic {
+  width: 50%;
+  align-items: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-global-esq .principal-data {
+  margin-bottom: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card-global-esq .principal-data h3 {
+  color: #003838;
+  font-size: 2em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card-global-esq .principal-data p {
+  color: #53C8A4;
+  font-size: 0.9em;
+}
+
+.card-global-center .other-data {
+  margin-bottom: 5px;
+}
+
+.card-global-center .other-data h5 {
+  color: #003838;
+  font-size: 1em;
+}
+
+.card-global-center .other-data p {
+  color: #53C8A4;
+  font-size: 0.7em;
+}
+
+/* COUNTRY ZONES */
+
+.cardlist-country {
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.card-country {
+  width: 33.3%;
+  min-height: 250px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid #003838;
+  border-radius: 15px;
+  margin: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.card-country .main-data .country-name {
+  color: #003838;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-country .main-data .info-main-data {
+  margin-bottom: 5px;
+}
+
+.card-country .main-data .info-main-data h4 {
+  font-size: 1em;
+  color: #003838;
+}
+
+.card-country .main-data .info-main-data p {
+  font-size: 0.7em;
+  color: #53C8A4;
+}
+
+.card-country .bottom-data {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+}
+.card-country .bottom-data .bottom-data-esq {
+  margin-right: 20px;
+}
+
+.card-country .bottom-data .bottom-data-esq .info-bottom-data,
+.card-country .bottom-data .bottom-data-dir .info-bottom-data {
+  align-items: center;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.card-country .bottom-data .bottom-data-esq h5,
+.card-country .bottom-data .bottom-data-dir h5 {
+  font-size: 0.8em;
+  color: #003838;
+}
+
+.card-country .bottom-data .bottom-data-esq p,
+.card-country .bottom-data .bottom-data-dir p {
+  font-size: 0.6em;
+  color: #53C8A4;
+}
+
+/* FOOTER */
+
+.rodape {
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  background-color: #003838;
+  padding: 1rem;
 }
