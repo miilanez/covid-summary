@@ -28,10 +28,6 @@ body {
 
 .header-topo {
   background-color: #003838;
-  background-image: "url(" + "/tascom-project/src/assets/img/Slide-Back.png" + ")";
-  background-position: 'center';
-  background-size: 'cover';
-  background-repeat: 'no-repeat';
   align-items: center;
   text-align: center;
   padding: 3rem;
