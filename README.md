@@ -1,4 +1,4 @@
-# Projeto Covid19
+# Covid Summary
 
 Este projeto é uma Aplicação Web que trás em tempo real dados sobre a pandemia de Covid19 que assolou o mundo recentemente. Este projeto fez parte do processo seletivo para Desenvolvedor FrontEnd na Tascom Tecnologia.
 
