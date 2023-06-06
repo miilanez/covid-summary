@@ -77,18 +77,26 @@ body {
 
 .card-global-esq,
 .card-global-center {
-  width: 25%;
+  width: 30%;
   padding: 1rem;
 }
 
 .card-global-graphic {
-  width: 50%;
+  width: 40%;
   align-items: center;
   text-align: center;
 }
 
 .card-global-esq .principal-data {
   margin-bottom: 10px;
+}
+
+.card-global-esq .principal-data .data-calendar {
+  font-size: 0.7em;
+}
+
+.card-global-esq .principal-data span{
+  color: #53C8A4;
 }
 
 .card-global-esq .principal-data h3 {
@@ -141,10 +149,19 @@ body {
 
 .card-country .main-data .country-name {
   color: #003838;
+  margin-bottom: 7px;
 }
 
 .card-country .main-data .info-main-data {
-  margin-bottom: 5px;
+  margin-bottom: 7px;
+}
+
+.card-country .main-data .info-main-data .data-calendar {
+  font-size: 0.7em;
+}
+
+.card-country .main-data .info-main-data span {
+  color: #53C8A4;
 }
 
 .card-country .main-data .info-main-data h4 {
